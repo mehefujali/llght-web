@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+button {
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    font-family: "Mukta", sans-serif;
+    color: white;
+
+}
+
+
+
+body {
+    background-color: black;
+}
+
+.contenar {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.brand {
+    font-size: 3rem;
+    font-style: italic;
+    color: white;
+
+}
+
+.active {
+    background: linear-gradient(133.63deg, rgb(200, 36, 236), rgb(223, 48, 141));
+    width: fit-content;
+
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+
+.primary-btn {
+    background: linear-gradient(133.63deg, rgb(200, 36, 236), rgb(223, 48, 141));
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.secendary-btn {
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.bg-color-div {
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(rgba(170, 20, 240, 0.205), rgba(170, 20, 240, 0));
+    position: absolute;
+    top: -400px;
+    left: 200px;
+    z-index: -100;
+
+}
+
+.bg-color-div2 {
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(rgba(170, 20, 240, 0.31), rgba(170, 20, 240, 0));
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    z-index: -100;
+
+}
+
+/* Hero  */
+
+.hero-section {
+    margin-top: 82px;
+}
+
+.hero-title {
+    font-size: 3rem;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 35px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-description {
+    width: 30%;
+}
+
+.hero-des {
+    margin: 50px 0;
+}
+
+.hero-img-and-des {
+    max-width: 400px;
+    position: relative;
+}
+
+.hero-im-saph {
+    background-color: rgb(83, 70, 134);
+    text-align: center;
+    width: 318px;
+    padding: 200px 50px 100px 50px;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    z-index: -6;
+    border-radius: 0 109px 200px 200px;
+}
+
+.hero-img {
+    width: 450px;
+}
+
+.hero-hr {
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-bars {
+    display: none;
+}

@@ -1,0 +1,37 @@
+@media screen and (max-width:576px) {
+    .fa-bars {
+        display: block;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .bg-color-div {
+        width: 300px;
+        height: 300px;
+        top: -150px;
+        left: -30px;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-description {
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 350px;
+    }
+
+    .hero-im-saph {
+        width: 227px;
+        top: 95px;
+        left: 15px;
+    }
+
+}
